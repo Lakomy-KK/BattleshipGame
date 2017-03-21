@@ -69,6 +69,7 @@ public class View extends JFrame {
 
 	private void setPanelFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("BattleShip Game");
 		setBounds(50, 0, 1280, 720);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
